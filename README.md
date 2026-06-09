@@ -21,33 +21,40 @@ This project analyzes India's Consumer Price Index (CPI) data to uncover inflati
 
 ## Key Analyses Performed
 1. CPI Basket Contribution Analysis
-Calculated the percentage contribution of broad CPI categories by assuming equal category weights as specified in the case study.
+   Calculated the percentage contribution of broad CPI categories by assuming equal category weights as specified in the case study.
 
-Contribution% = (Category CPI/Total CPI of All Categories)*100
+   Contribution% = (Category CPI/Total CPI of All Categories)*100
 
 2. Year-over-Year (YoY) Inflation Analysis
-Analyzed the long-term inflation trend using the General Index.
+   Analyzed the long-term inflation trend using the General Index.
 
-YoY Inflation% = (Current Year CPI − Previous Year CPI)/Previous Year CPI*100
+   YoY Inflation% = (Current Year CPI − Previous Year CPI)/Previous Year CPI*100
 
-3.Food Inflation Analysis
-Studied Month-over-Month changes in Food & Beverages CPI between May 2022 and May 2023.
+3. Food Inflation Analysis
+   Studied Month-over-Month changes in Food & Beverages CPI between May 2022 and May 2023.
 
-MoM Inflation% = (Current Month CPI − Previous Month CPI)/Previos Month CPI*100
+   MoM Inflation% = (Current Month CPI − Previous Month CPI)/Previos Month CPI*100
 
 4. Food Inflation Driver Analysis
-Identified the food sub-category contributing most to food inflation.
+   Identified the food sub-category contributing most to food inflation.
 
-Absolute Change = CPI May 2023 ​− CPI May 2022​
+   Absolute Change = CPI May 2023 ​− CPI May 2022​
 
 5. COVID-19 Impact Assessment
-Compared inflation trends before and after the March 2020 lockdown across:
+   Compared inflation trends before and after the March 2020 lockdown across:
 
-Food & Beverages
-Healthcare
-Fuel & Light (Essential Services)
+   Food & Beverages
+   Healthcare
+   Fuel & Light (Essential Services)
 
 ## Dashboard
 <img width="1541" height="713" alt="Screenshot_of_Dashboard" src="https://github.com/user-attachments/assets/e5ba2920-b205-414d-a228-2a552e92c78e" />
+
+## Insights
+- Food and Fuel categories showed significant inflation volatility during the COVID-19 period.
+- Vegetables and other food sub-categories emerged as major drivers of food inflation.
+- CPI inflation displayed notable fluctuations during supply-chain disruptions caused by lockdowns.
+- Healthcare inflation remained relatively stable but exhibited a gradual upward trend post-COVID.
+- Inflation peaked during year 2022 before moderating in later months.
 
 
